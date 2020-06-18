@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Editor</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<div class="ba-container">
+		<div class="ba-editor">
+			<h2>Simple Editor</h2>
+		<p>To work with text, press <span class="ba-editor__light-text"> Ctrl + E.</span> To save the entered data, press <span class="ba-editor__light-text">Ctrl + S.</span> To discard changes, press<span class="ba-editor__light-text">Esc.</span></p>
+		<div class="ba-editor__content" data-content>
+			<h3>Enter something interesting in me plese</h3>
+			<p>Be a good boy or girl, enter something in me. Don't make me wait!</p>
+			<p>Please do it!</p>
+		</div>
+		<textarea name="editor" id="editor" cols="76" rows="7" class="ba-editor__textarea" data-textarea hidden>
+			
+		</textarea>
+		</div>
+	</div>
+<script src="js/app.js"></script>
+</body>
+</html>
